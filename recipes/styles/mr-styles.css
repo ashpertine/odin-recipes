@@ -1,0 +1,41 @@
+body {
+    font-family: monospace;
+    background-color: beige;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#homepage-link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.ingredients {
+    display: flex;
+}
+
+
+img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;   
+}
+
+h1 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color:peru;
+}
+
+ul {
+    margin: 0 80px;
+}

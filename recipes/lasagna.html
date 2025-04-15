@@ -4,32 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna Recipe</title>
+    <link href="./styles/lasagna.css" rel="stylesheet">
 </head>
 <body>
    <h1>Lasagna Recipe</h1> 
-   <img src="../images/lasagna.jpg" alt="plate of lasagna" height="200" width="300">
-   <a href="../index.html">Go Back To Homepage</a>
-   <h2>Description</h2>
-   <p>This recipe uses the lasagna recipe from <a href="https://www.allrecipes.com/recipe/19344/homemade-lasagna/" rel="noopener noreferrer" target="_blank">Allrecipes</a></p>
-   <h3>Ingredients:</h3>
-   <ul>
-        <li>Meat</li>
-        <li>Onion</li>
-        <li>Canned tomatoes</li>
-        <li>Fresh herbs</li>
-        <li>Sugar</li>
-        <li>Spices and seasonings</li>
-        <li>Noodles</li>
-        <li>Cheese</li>
-        <li>Eggs</li>
-   </ul>
-   <h3>Steps</h3>
-   <ol>
-        <li><p><strong>Cook the meat:</strong>Cook the ground meat in a skillet until browned and crumbly. Add the onion and continue cooking until it's translucent. Stir in the canned tomato products, half of the parsley, garlic, basil, 1.5 teaspoons of salt, oregano, and sugar.</p></li>
-        <li><p><strong>Cook the noodles:</strong>Boil the lasagna noodles in lightly salted water until they're al dente.</p></li>
-        <li><p><strong>Make the cheese layer:</strong>Mix cottage cheese, Parmesan cheese, eggs, the remaining parsley, the remaining salt, and pepper in a bowl.</p></li>
-        <li><p><strong>Assemble the lasagna:</strong>Layer the ingredients according to the recipe (starting with sauce and ending with mozzarella) until the lasagna is assembled.</p></li>
-        <li><p><strong>Bake the lasagna:</strong>Cover with foil and bake in the preheated oven for about half an hour. Remove the foil and continue baking until the top is golden brown.</p></li>
-   </ol>
+   <div class="content container">
+          <div class="first">
+               <img src="../images/lasagna.jpg" alt="plate of lasagna" height="200" width="300">
+               <a href="../index.html" id="homepage-link">Go Back To Homepage</a>
+               <h2>Description</h2>
+               <p>This recipe uses the lasagna recipe from <a href="https://www.allrecipes.com/recipe/19344/homemade-lasagna/" rel="noopener noreferrer" target="_blank">Allrecipes</a></p>
+               <h3>Ingredients:</h3>
+               <div id="ingredients">
+                    <ul>
+                         <li>Meat</li>
+                         <li>Onion</li>
+                         <li>Canned tomatoes</li>
+                         <li>Fresh herbs</li>
+                    </ul>
+                    <ul>
+                         <li>Sugar</li>
+                         <li>Spices and seasonings</li>
+                         <li>Noodles</li>
+                         <li>Cheese</li>
+                         <li>Eggs</li>
+                    </ul>
+               </div>
+          </div>
+          <div class="second">
+               <h3>Steps</h3>
+               <ol>
+                    <li><p class="steps"><strong>Cook the meat: </strong>Cook the ground meat in a skillet until browned and crumbly. Add the onion and continue cooking until it's translucent. Stir in the canned tomato products, half of the parsley, garlic, basil, 1.5 teaspoons of salt, oregano, and sugar.</p></li>
+                    <li><p class="steps"><strong>Cook the noodles: </strong>Boil the lasagna noodles in lightly salted water until they're al dente.</p></li>
+                    <li><p class="steps"><strong>Make the cheese layer: </strong>Mix cottage cheese, Parmesan cheese, eggs, the remaining parsley, the remaining salt, and pepper in a bowl.</p></li>
+                    <li><p class="steps"><strong>Assemble the lasagna: </strong>Layer the ingredients according to the recipe (starting with sauce and ending with mozzarella) until the lasagna is assembled.</p></li>
+                    <li><p class="steps"><strong>Bake the lasagna: </strong>Cover with foil and bake in the preheated oven for about half an hour. Remove the foil and continue baking until the top is golden brown.</p></li>
+               </ol>
+          </div>
+   </div>
 </body>
 </html>
